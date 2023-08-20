@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-""" 2. Basic annotations - floor
-"""
+
+""""Basic Annotations - floor"""
+
+
+import math
 
 
 def floor(n: float) -> int:
-    """ Returns floor of number
-    """
-    return int(n) if n >= 0 else int(n) - 1
+    """Returns an approx int val"""
+    return math.floor(n)
