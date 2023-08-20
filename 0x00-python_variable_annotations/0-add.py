@@ -1,6 +1,6 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
-""""Baseic Annotations"""
+""""Basic Annotations"""
 
 def add(a: float, b: float) -> float:
     return (a + b)
