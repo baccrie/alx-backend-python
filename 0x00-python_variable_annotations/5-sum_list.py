@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-""" 5. Complex types - list of floats
-"""
 
+""""Define Variables"""
+
+
+from functools import reduce
 from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
-    """ Returns list of floats.
-    """
-    return sum(input_list)
+    '''Returns a sum of floats'''
+    return reduce(lambda a, b: a + b, input_list)
