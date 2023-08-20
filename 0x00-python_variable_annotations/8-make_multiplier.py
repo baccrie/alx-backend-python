@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-""" 8. Complex types - functions
-"""
+
+""""Complex types - functions"""
 
 from typing import Callable
 
 
-def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    """ Returns a function that multiplies a float.
-    """
-    return lambda x: x * multiplier
+def make_multiplier(multiplier: float) -> Callable[float]:
+    '''A funtion that returns a function that accepts float'''
+    return lambda a: a * multiplier
